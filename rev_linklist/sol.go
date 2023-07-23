@@ -14,8 +14,7 @@ func Reverse(head *ListNode) *ListNode {
 		if cur == nil {
 			return next
 		}
-		// nil | 1 | 2
-		// tmp_prev := prev
+
 		// 1 | 2 | 3
 		next = cur
 		// 2 | 3 | nil
